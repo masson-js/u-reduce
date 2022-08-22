@@ -1,0 +1,61 @@
+
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.Header { 
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.Header li {
+  display: inline-block;
+  margin: 0 1em 0 1em;
+}
+
+.button {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Button span:after {
+  content: '↓';
+  position: absolute;
+  opacity: 0;
+  bottom: 5px;
+  transition: 0.5s;
+}
+
+.Button:hover span {
+  padding-bottom: 10px;
+}
+
+.Button:hover span:after {
+  opacity: 1;
+  bottom: 0;
+}
+
+.CodeExamplesDiv {
+  display:flex;
+  justify-content: center;
+
+  width: 460px;
+  height: 460px;
+}
