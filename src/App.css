@@ -5,57 +5,68 @@ body {
   margin: 0;
 }
 
-.Header { 
-  border-bottom: 1px solid #ccc;
-  padding: .5em 1em;
-  display: flex;
-  justify-content: center;
+.App {
+  display: block;
 }
 
-.Header li {
-  display: inline-block;
-  margin: 0 1em 0 1em;
-}
+  .Header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: center;
+  }
 
-.button {
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
+  .Header li {
+    display: inline-block;
+    margin: 0 1em 0 1em;
+  }
 
-.Button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+  .button {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
 
-.Button span:after {
-  content: '↓';
-  position: absolute;
-  opacity: 0;
-  bottom: 5px;
-  transition: 0.5s;
-}
+  .HeaderButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
 
-.Button:hover span {
-  padding-bottom: 10px;
-}
+  .HeaderButton span:after {
+    content: '↓';
+    position: absolute;
+    opacity: 0;
+    bottom: 5px;
+    transition: 0.5s;
+  }
 
-.Button:hover span:after {
-  opacity: 1;
-  bottom: 0;
-}
+  .HeaderButton:hover span {
+    padding-bottom: 10px;
+  }
+
+  .HeaderButton:hover span:after {
+    opacity: 1;
+    bottom: 0;
+  }
 
 .CodeExamplesDiv {
-  display:flex;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
 
-  width: 460px;
-  height: 460px;
+}
+
+.Example {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
 }

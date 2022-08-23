@@ -4,7 +4,23 @@ function CodeExamples() {
   
   return (
     <div className="CodeExamplesDiv">
-      <div id="id-001" className="Example">
+      <div id="id-001" className="Example EaseExample">
+      <span>Easy</span>
+        <h1>
+           
+        </h1>
+        <p>
+           is simply dummy text of the printing and 
+          typesetting industry. Lorem Ipsum has been the industry's 
+        </p>
+
+
+      </div>
+      <div id="id-002" className="Example Hardxample">
+        <span>Hard</span>
+        <h1>
+          Lorem Ipsum is simply dummy text 
+        </h1>
         <p>Lorem Ipsum is simply dummy text of the printing and 
           typesetting industry. Lorem Ipsum has been the industry's 
           standard dummy text ever since the 1500s, when an unknown 
@@ -18,6 +34,7 @@ function CodeExamples() {
       </div>
     </div>
   );
+  
 }
 
 export default CodeExamples;

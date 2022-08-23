@@ -1,14 +1,17 @@
 import React from 'react';
 
 
-function Header() {
-  
+function Header(props) {
+
+  const showExamples = {props};
+
+
   return (
     <div className="Header">
       <ul class="nav">
-        <li><a className="Button"><span>Code Examples</span></a></li> 
-        <li><a className="Button"><span>Video Examples</span></a></li> 
-        <li><a className="Button"><span>Sources</span></a></li> 
+        <li><a className="HeaderButton" onClick={() => {showExamples()}}><span>Code Examples</span></a></li> 
+        <li><a className="HeaderButton"><span>Video Examples</span></a></li> 
+        <li><a className="HeaderButton"><span>Sources</span></a></li> 
     </ul>
     </div>
   );
