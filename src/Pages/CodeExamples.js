@@ -5,8 +5,58 @@ import './Examples.css';
 function CodeExamples() {
   
   return (
-    <div className="CodeExamplesDiv">
-      <div id="id-001" className="Example EaseExample">
+    <>
+    <div className="CodeExamplesComponent">
+      <header className="ExampleHeader">
+        <h2 className="ExampleId">id Example</h2>
+        <h2 className="ExampleHeaderText">Example Header text</h2>
+        <h2 className="DiffecaltLevelEasy">Diffecalt level</h2>
+      </header>
+      <div className="ExampleContent">
+        <p> Paragraph text Up</p>
+        <pre className='codeText'>
+          
+          <span class="token comment">// <code>Arrow()</code> function</span><br></br>
+          <span class="token function">reduce</span>
+          
+
+        </pre>
+        <p>Lorem Ipsum is simply dummy text of the printing and 
+          typesetting industry. Lorem Ipsum has been the industry's 
+          standard dummy text ever since the 1500s, when an unknown </p>
+      </div>
+    </div>
+        <div className="CodeExamplesComponent">
+        <header className="ExampleHeader">
+          <h2 className="ExampleId">id Example</h2>
+          <h2 className="ExampleHeaderText">Example Header text</h2>
+          <h2 className="DiffecaltLevelHard">Diffecalt level</h2>
+        </header>
+        <div className="ExampleContent">
+          <p> Paragraph text Up</p>
+          <pre className='codeText'>
+            
+            <span class="token comment">// <code>Arrow()</code> function</span><br></br>
+            <span class="token function">reduce</span>
+            
+  
+          </pre>
+          <p>Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown </p>
+        </div>
+      </div>
+    </>
+    
+    );
+  }
+
+
+
+
+
+
+      {/* <div id="id-001" className="EasyExample">
       <span className='difficultEasy'>Easy</span>
         <h1>
           Reduce 1 
@@ -18,7 +68,7 @@ function CodeExamples() {
 
 
       </div>
-      <div id="id-002" className="Example Hardxample">
+      <div id="id-002" className="HardExample">
         <span className='difficultHard'>Hard</span>
         <h1>
         Reduce 2
@@ -33,10 +83,6 @@ function CodeExamples() {
           the release of Letraset sheets containing Lorem Ipsum passages,
           and more recently with desktop publishing software like Aldus 
           PageMaker including versions of Lorem Ipsum.</p>
-      </div>
-    </div>
-  );
+      </div> */}
   
-}
-
 export default CodeExamples;

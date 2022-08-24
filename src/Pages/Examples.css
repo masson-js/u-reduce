@@ -1,15 +1,50 @@
+.CodeExamplesComponent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.ExampleHeader {
+  display: flex;
+  justify-content: space-between;
+  background: pink;
+  width: auto;
+  height: auto;
+  flex-grow: 10,
+}
+
+.ExampleId {
+
+}
+
+.ExampleHeaderText {
+
+}
 
 
-.difficultEasy {
+.DiffecaltLevelEasy {
   padding: 3px 10px 5px 10px;
   border-radius: 20px;
   color: white;
   background-color:blue;
 }
 
-.difficultHard {
+.DiffecaltLevelHard {
   padding: 3px 10px 5px 10px;
   border-radius: 20px;
   color: white;
   background-color:red;
+}
+
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
 }
