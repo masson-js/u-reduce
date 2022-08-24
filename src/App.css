@@ -1,4 +1,4 @@
-
+/* 
 
 body {
   font-family: Helvetica;
@@ -7,9 +7,9 @@ body {
 
 .App {
   display: block;
-}
+} */
 
-  .Header { 
+  /* .Header { 
     border-bottom: 1px solid #ccc;
     padding: .5em 1em;
     display: flex;
@@ -54,8 +54,8 @@ body {
   .HeaderButton:hover span:after {
     opacity: 1;
     bottom: 0;
-  }
-
+  } */
+/* 
 .CodeExamplesDiv {
   margin-left: auto;
   margin-right: auto;
@@ -69,4 +69,4 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-}
+} */

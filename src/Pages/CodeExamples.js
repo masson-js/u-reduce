@@ -1,13 +1,15 @@
 import React from 'react';
 
+import './Examples.css';
+
 function CodeExamples() {
   
   return (
     <div className="CodeExamplesDiv">
       <div id="id-001" className="Example EaseExample">
-      <span>Easy</span>
+      <span className='difficultEasy'>Easy</span>
         <h1>
-           
+          Reduce 1 
         </h1>
         <p>
            is simply dummy text of the printing and 
@@ -17,9 +19,9 @@ function CodeExamples() {
 
       </div>
       <div id="id-002" className="Example Hardxample">
-        <span>Hard</span>
+        <span className='difficultHard'>Hard</span>
         <h1>
-          Lorem Ipsum is simply dummy text 
+        Reduce 2
         </h1>
         <p>Lorem Ipsum is simply dummy text of the printing and 
           typesetting industry. Lorem Ipsum has been the industry's 

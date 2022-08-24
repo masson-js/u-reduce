@@ -1,0 +1,15 @@
+
+
+.difficultEasy {
+  padding: 3px 10px 5px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color:blue;
+}
+
+.difficultHard {
+  padding: 3px 10px 5px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color:red;
+}

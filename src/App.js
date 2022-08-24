@@ -1,31 +1,22 @@
-import React, { useState } from 'react';
+import { Route, Routes } from "react-router-dom";
 
-import Header from './Layouts/Header';
-import CodeExamples from './Layouts/CodeExamples';
-import VideoExamples from './Layouts/VideoExamples'
-import Sources from './Layouts/Sources';
-
-import './App.css';
+import Header from './Components/Header';
+import CodeExamples from './Pages/CodeExamples';
+import VideoExamples from './Pages/VideoExamples'
+import Sources from './Pages/Sources';
 
 
 const App = () => {
-
-  const initialState = false;
-
-  const [codeExamplesState, setExamples] = useState(false);
-
-  const showExamples = () => setExamples((showExamples) => !showExamples)
-
-
   return (
-    <div className="App">
-      <Header showExamples = {showExamples}
-      />
-      <div className="Container-section">
-        {codeExamplesState && <CodeExamples />}
-        <VideoExamples />
-        <Sources />
-      </div>
+    <div>
+      <Header />
+    <main>
+      <Routes>
+        <Route path ='/CodeExamples' element={<CodeExamples />} />
+        <Route path="/VideoExamples" element={<VideoExamples />} />
+        <Route path="/Sources" element={<Sources />} />
+      </Routes>
+    </main>
     </div>
   );
 }
