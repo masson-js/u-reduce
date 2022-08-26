@@ -6,9 +6,9 @@ function CodeExamples() {
   
   return (
     <>
-    <div className="CodeExamplesComponent">
+    <div className="CodeExamplesComponent" id='1'>
       <header className="ExampleHeader">
-        <h2 className="ExampleId">id Example</h2>
+        <h2 className="ExampleId">id:1</h2>
         <h2 className="ExampleHeaderText">Example Header text</h2>
         <h2 className="DiffecaltLevelEasy">Diffecalt level</h2>
       </header>
@@ -25,10 +25,11 @@ function CodeExamples() {
           typesetting industry. Lorem Ipsum has been the industry's 
           standard dummy text ever since the 1500s, when an unknown </p>
       </div>
+      
     </div>
-        <div className="CodeExamplesComponent">
+        <div className="CodeExamplesComponent"  id='2'>
         <header className="ExampleHeader">
-          <h2 className="ExampleId">id Example</h2>
+          <h2 className="ExampleId">id:2</h2>
           <h2 className="ExampleHeaderText">Example Header text</h2>
           <h2 className="DiffecaltLevelHard">Diffecalt level</h2>
         </header>
