@@ -6,42 +6,13 @@ function CodeExamples() {
 
   const data = [
     {
-      nameComponent:'CodeExamples',
-      id: 1,
-      headerText : 'Example Header text',
-      diffecaltLevel : 'easy',
-      codeExample : 'code',
-      mainText : 'This is main description text',
-    },
-    {
-      nameComponent:'CodeExamples',
-      id: 2,
-      headerText : 'Example Header text',
-      diffecaltLevel : 'hard',
-      codeExample : 'code',
-      mainText : 'This is main description text',
+      
     }
   ]
   
   return (
     <>
-      {data.map((example) => (
-        <div className={example.nameComponent}>
-          <header className="ExampleHeader">
-            <h2 className="ExampleId"> {example.id}</h2>
-            <h2 className="ExampleHeaderText"> {example.headerText}</h2>
-            <h2 className={example.diffecaltLevel}>{example.diffecaltLevel}</h2>
-          </header>
-        </div>
-        ))
-      }
-
-
-
-
-
-
-    {/* <div className="CodeExamplesComponent" id='1'>
+    <div className="CodeExamplesComponent" id='1'>
       <header className="ExampleHeader">
         <h2 className="ExampleId">id:1</h2>
         <h2 className="ExampleHeaderText">Example Header text</h2>
@@ -81,10 +52,10 @@ function CodeExamples() {
             typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown </p>
         </div>
-      </div> */}
+      </div>
     </>
     
     );
   }
-  
+
 export default CodeExamples;
