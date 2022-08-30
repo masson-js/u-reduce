@@ -32,6 +32,14 @@ function CodeExamples() {
             <h2 className="ExampleHeaderText"> {example.headerText}</h2>
             <h2 className={example.diffecaltLevel}>{example.diffecaltLevel}</h2>
           </header>
+          <div className="ExampleContent">
+            <code className='codeText'>
+              {example.codeExample}
+            </code>
+            <p>
+              {example.mainText}
+            </p>
+          </div>
         </div>
         ))
       }
