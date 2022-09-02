@@ -1,9 +1,12 @@
 .CodeExamples {
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
   height: auto;
   text-align: justify;
+  background: rgb(192, 192, 192);
 }
 
 h2 {
@@ -13,7 +16,7 @@ h2 {
 .ExampleHeader {
   display: flex;
   justify-content: space-between;
-  background: pink;
+  background: rgb(255, 204, 0);
   width: auto;
   height: auto;
 }
@@ -27,27 +30,33 @@ h2 {
 
 .ExampleHeaderText {
   text-align: justify;
-}
-
-.ExampleHeaderText {
   padding: 0;
   margin: 0;
 }
-
 
 .Easy {
   padding:0;
   margin:0;
   color: white;
-  background-color:blue;
+  background-color: rgb(0,0,255);
+}
+
+.Middle {
+  padding:0;
+  margin:0;
+  color: white;
+  background-color: rgb(102, 204, 51);
 }
 
 .Hard {
   padding:0;
   margin:0;
   color: white;
-  background-color:red;
+  background-color: rgb(255,0,0);
 }
+
+
+
 
 
 code {
@@ -55,4 +64,8 @@ code {
     border-radius: 3px;
     font-family: courier, monospace;
     padding: 0 3px;
+}
+
+.CodeExamples p {
+  border: 1px rgb(190, 190, 190) solid
 }

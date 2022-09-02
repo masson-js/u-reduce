@@ -1,12 +1,24 @@
 
+import sources from '../storage/list-of-sourses'
+
+import '../Pages/sources.css'
+
+
 function Sources() {
   
   return (
-    <div className="SourcesList">
-      <ul class="List">
-        <li><a href="www.google.com">First Link</a></li>
-      </ul>
-    </div>
+    <>
+      {sources.map((link) =>
+        <div className="LinkConteier">
+          <div className="SourcesList" id={link.id}>
+            <ul class="List">
+              <li><a href={link.link}>{`#${link.id}`} {link.title}</a></li>
+            </ul>
+          </div>
+        </div>
+        )
+      }
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../StorageExamples/DataExamples'
+import data from '../storage/data-examples'
 
 import './Examples.css';
 
@@ -10,15 +10,17 @@ function CodeExamples() {
       {data.map((example) => (
         <div className={example.nameComponent}>
           <header className="ExampleHeader">
-            <h2 className="ExampleId"> {example.id}</h2>
+            <h2 className="ExampleId">{`id#${example.id}`}</h2>
             <h2 className="ExampleHeaderText"> {example.headerText}</h2>
-            <h2 className={example.diffecaltLevel}>{example.diffecaltLevel}</h2>
+            <h2 className={example.diffecaltLevel}>{example.diffecaltLevel.toUpperCase()}</h2>
           </header>
           <div className="ExampleContent">
-            <code className='codeText'>
-              {example.codeExample}
-            </code>
-            <p>
+            <pre>
+              <code className='codeText'>
+                {example.codeExample}
+              </code>
+            </pre>
+            <p className="mainText">
               {example.mainText}
             </p>
           </div>
