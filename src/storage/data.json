@@ -1,0 +1,7 @@
+ 
+  {
+    "nameComponent":"CodeExamples",
+    "id": 1,
+    "codeExample" : "array.reduce(acc, rec) => acc + rec, one more "
+  }
+  
