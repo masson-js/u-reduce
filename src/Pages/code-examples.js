@@ -18,10 +18,10 @@ function CodeExamples() {
             <h2 className={example.diffecaltLevel}>{example.diffecaltLevel.toUpperCase()}</h2>
           </header>
           <div className="ExampleContent">
-            <pre>
-              <code className='language-javascript'>
+            <pre className='language-javascript'>
+              
                 {example.codeExample}
-              </code>
+              
             </pre>
             <p className="mainText">
               {example.mainText}
