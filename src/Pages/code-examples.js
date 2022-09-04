@@ -1,8 +1,10 @@
 import React from 'react';
 import data from '../storage/data-examples'
 
-import './Examples.css';
+
+import './examples.css';
 // import '../prism/prism.css';
+
 
 function CodeExamples() {
 
@@ -19,7 +21,6 @@ function CodeExamples() {
             <pre>
               <code className='language-javascript'>
                 {example.codeExample}
-                
               </code>
             </pre>
             <p className="mainText">

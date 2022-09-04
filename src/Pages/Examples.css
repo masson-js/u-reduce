@@ -59,14 +59,14 @@ h2 {
 
 
 
-/* code {
+code {
     background-color: #eee;
     border-radius: 3px;
     font-family: courier, monospace;
     padding: 0 3px;
     white-space: pre-line;
 
-} */
+}
 
 .CodeExamples p {
   border: 1px rgb(190, 190, 190) solid 
