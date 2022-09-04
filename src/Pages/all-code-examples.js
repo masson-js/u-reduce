@@ -1,16 +1,19 @@
 import React from 'react';
-import data from '../storage/data-examples'
+
+import easyExamples from '../storage/data-easy-examples'
+import middleExamples from '../storage/data-middle-examples'
+import hardExamples from '../storage/data-hard-examles'
 
 
 import './examples.css';
-// import '../prism/prism.css';
-
 
 function CodeExamples() {
 
+  const allExamples = [...easyExamples, ...middleExamples, ...hardExamples]
+
   return (
     <>
-      {data.map((example) => (
+      {allExamples.map((example) => (
         <div className={example.nameComponent}>
           <header className="ExampleHeader">
             <h2 className="ExampleId">{`id#${example.id}`}</h2>
@@ -19,9 +22,9 @@ function CodeExamples() {
           </header>
           <div className="ExampleContent">
             <pre className='language-javascript'>
-              
+              <code>
                 {example.codeExample}
-              
+              </code>
             </pre>
             <p className="mainText">
               {example.mainText}

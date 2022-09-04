@@ -7,6 +7,7 @@
   height: auto;
   text-align: justify;
   background: rgb(192, 192, 192);
+  border: 1px solid black;
 }
 
 h2 {
@@ -15,6 +16,8 @@ h2 {
 
 .ExampleHeader {
   display: flex;
+  margin: 0;
+  padding: 10px 0 10px;
   justify-content: space-between;
   background: rgb(255, 204, 0);
   width: auto;
@@ -22,14 +25,14 @@ h2 {
 }
 
 .ExampleId {
+  font-size: 0.9em;
   color: white;
   background: red;
-  padding: 0;
   margin: 0;
 }
 
 .ExampleHeaderText {
-  text-align: justify;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
@@ -55,19 +58,24 @@ h2 {
   background-color: rgb(255,0,0);
 }
 
-
-
-
-
 .language-javascript {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
     background-color: #eee;
-    border-radius: 3px;
-    font-family: courier, monospace;
-    padding: 0 3px;
     white-space: pre-line;
 
 }
-
 .CodeExamples p {
   border: 1px rgb(190, 190, 190) solid 
+}
+
+.mainText {
+  margin: 0;
+  padding: 10px;
+  border:none;
+  font-size: 0.9em;
 }
