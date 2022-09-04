@@ -1,16 +1,14 @@
 
 const stringyOne = 
-`const array1 = [1, 2, 3, 4];
-0 + 1 + 2 + 3 + 4
-const initialValue = 0;
+`
+const array = [1, 2, 3, 4];
 
-const sumWithInitial = array1.reduce(
-\u00A0\u00A0(previousValue, currentValue) => previousValue + currentValue,
-\u00A0initialValue
-);
+const sum = array.reduce((acc, rec) => acc + rec, 0);
 
-console.log(sumWithInitial);
-// expected output: 10`
+console.log(sum);
+
+expected output: 10
+`
 
 const stringyTwo = 
 `var obj2 = {
