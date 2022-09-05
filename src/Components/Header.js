@@ -15,7 +15,7 @@ const Header = () => {
         <ul>
         <li>
             <NavLink 
-              activeClassName={classes.active} to='/CodeExamples'>
+              activeClassName={classes.active} to='/Start'>
               <span className='header-numbers'>1 </span>Start
             </NavLink>
           </li>

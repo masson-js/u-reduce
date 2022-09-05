@@ -1,7 +1,7 @@
 const middleExamples = [
   {
     nameComponent:'CodeExamples',
-    id: 2,
+    id: 201,
     headerText : 'Example Header text',
     diffecaltLevel : 'Middle',
     codeExample : 

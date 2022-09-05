@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import Header from './Components/header';
+import Start from './Pages/start-page'
 import CodeExamples from './Pages/all-code-examples';
 import VideoExamples from './Pages/video-examples'
 import Sources from './Pages/sources';
@@ -17,7 +18,7 @@ const App = () => {
       <Header />
     <main>
       <Routes>
-
+      <Route path ='/Start' element={<Start />} />
         <Route path ='/CodeExamples' element={<CodeExamples />} />
         <Route path ='/CodeExamplesEasy' element={<CodeExamplesEasy />} />
         <Route path ='/CodeExamplesMiddle' element={<CodeExamplesMiddle />} />

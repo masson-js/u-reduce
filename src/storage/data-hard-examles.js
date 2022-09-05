@@ -1,7 +1,7 @@
 const hardExamples = [
   {
   nameComponent:'CodeExamples',
-  id: 3,
+  id: 303,
   headerText : 'Example Header text',
   diffecaltLevel : 'Hard',
   codeExample : 'hard code',
