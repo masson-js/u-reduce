@@ -1,12 +1,24 @@
 import { NavLink } from 'react-router-dom';
-
 import classes from '../Components/header.module.css';
 
+
+
 const Header = () => {
+
+
+
   return (
+
+
     <header className={classes.header}>
       <nav>
         <ul>
+        <li>
+            <NavLink 
+              activeClassName={classes.active} to='/CodeExamples'>
+              <span className='header-numbers'>1 </span>Start
+            </NavLink>
+          </li>
           <li>
             <NavLink activeClassName={classes.active} to='/CodeExamples'>
             <span className='header-numbers'>1 </span>All Examples

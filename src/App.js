@@ -11,6 +11,7 @@ import CodeExamplesHard from './Pages/code-examples-hard';
 
 
 const App = () => {
+
   return (
     <div>
       <Header />

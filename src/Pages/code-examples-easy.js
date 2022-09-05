@@ -6,7 +6,6 @@ import './examples.css';
 
 function CodeExamplesEasy() {
 
-
   return (
     <>
       {easyExamples.map((example) => (
