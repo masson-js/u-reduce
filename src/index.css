@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+
 * {
-  box-sizing: border-box;
+  box-sizing: none;
 }
 
 html {
@@ -10,11 +12,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #4296d2;
+
 }
 
 main {
-  margin-top: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
   text-align: center;
 }
-

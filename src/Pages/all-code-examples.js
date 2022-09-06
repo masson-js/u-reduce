@@ -1,16 +1,21 @@
 import React from 'react';
-import data from '../storage/data-examples'
+
+import easyExamples from '../storage/data-easy-examples'
+import middleExamples from '../storage/data-middle-examples'
+import hardExamples from '../storage/data-hard-examles'
 
 
 import './examples.css';
-// import '../prism/prism.css';
-
 
 function CodeExamples() {
 
+  const allExamples = [...easyExamples, ...middleExamples, ...hardExamples];
+
+  const shuffle = allExamples.sort( () => Math.random() - 0.5);
+
   return (
     <>
-      {data.map((example) => (
+      {shuffle.map((example) => (
         <div className={example.nameComponent}>
           <header className="ExampleHeader">
             <h2 className="ExampleId">{`id#${example.id}`}</h2>
@@ -18,8 +23,8 @@ function CodeExamples() {
             <h2 className={example.diffecaltLevel}>{example.diffecaltLevel.toUpperCase()}</h2>
           </header>
           <div className="ExampleContent">
-            <pre>
-              <code className='language-javascript'>
+            <pre className='language-javascript'>
+              <code>
                 {example.codeExample}
               </code>
             </pre>
