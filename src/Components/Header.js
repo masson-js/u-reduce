@@ -15,7 +15,7 @@ const Header = () => {
         <ul>
         <li>
             <NavLink 
-              activeClassName={classes.active} to='/Start'>
+              activeClassName={classes.active} to='/'>
               <span className='header-numbers'>1 </span>Start
             </NavLink>
           </li>
@@ -41,7 +41,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink activeClassName={classes.active} to='/VideoExamples'>
-            <span className='header-numbers'>5 </span>VideoExamples
+            <span className='header-numbers'>5 </span>Videos
             </NavLink>
           </li>
           <li>

@@ -14,11 +14,12 @@ import CodeExamplesHard from './Pages/code-examples-hard';
 const App = () => {
 
   return (
+    
     <div>
       <Header />
     <main>
       <Routes>
-      <Route path ='/Start' element={<Start />} />
+        <Route exact path ='/' element={<Start />} />
         <Route path ='/CodeExamples' element={<CodeExamples />} />
         <Route path ='/CodeExamplesEasy' element={<CodeExamplesEasy />} />
         <Route path ='/CodeExamplesMiddle' element={<CodeExamplesMiddle />} />

@@ -3,7 +3,7 @@
 
 
 * {
-  box-sizing: border-box;
+  box-sizing: none;
 }
 
 html {
@@ -12,11 +12,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #009CDF;
+  background-color: #4296d2;
+
 }
 
 main {
-  margin-top: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
   text-align: center;
 }
-

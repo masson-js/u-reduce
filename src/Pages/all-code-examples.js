@@ -9,11 +9,13 @@ import './examples.css';
 
 function CodeExamples() {
 
-  const allExamples = [...easyExamples, ...middleExamples, ...hardExamples]
+  const allExamples = [...easyExamples, ...middleExamples, ...hardExamples];
+
+  const shuffle = allExamples.sort( () => Math.random() - 0.5);
 
   return (
     <>
-      {allExamples.map((example) => (
+      {shuffle.map((example) => (
         <div className={example.nameComponent}>
           <header className="ExampleHeader">
             <h2 className="ExampleId">{`id#${example.id}`}</h2>
