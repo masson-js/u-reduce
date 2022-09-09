@@ -15,7 +15,7 @@ function VideoExamples() {
         <p className="VideoExamplesName">Name</p>
         <p className="VideoExamplesAuthor">Author</p>
       </div>
-      <div className="player-container">
+      <div className="player-container" alt="Uploading videos...">
         <ReactPlayer
           url={videos}
             config={{

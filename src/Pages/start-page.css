@@ -13,26 +13,69 @@
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-bottom: 20px;;
   width: 60%;
-  height: 400px;
-  text-align: justify;
-  background: rgb(192, 192, 192);
+  height: auto;
+  text-align: center;
+  color: black;
+  background-color: #eee;
 }
 
-h1 {
+.start-container h1 {
   font-size: 20pt;
   text-align: center;
-  margin-top: 20px;
-  padding-top: 40px;
-  
-
+  margin-top: 0px;
+  padding-top: 20px;
 }
 
-.info-reduce {
-  display: flex;
+.reduce-method {
+  color: white;
+  background-color: blue;
+}
 
- width: 100px;
- height: 100px;
- background: red;
+.reduce-array {
+  color: white;
+  background: red;
+}
 
+.reduce-callback {
+  background-color: rgb(16, 165, 0);
+  color: white;
+}
+
+.reduce-callback {
+  background-color: rgb(16, 165, 0);
+  color: white;
+}
+
+.reduce-dot {
+  background: rgb(255, 204, 0);
+  color: white;
+}
+
+.reduce-high-letters {
+  font-size: 1.6rem;
+  background: rgb(226, 226, 226);
+  padding: 10px;
+  width: auto;
+}
+
+.borders-reduce {
+  border-radius: 8px;
+}
+
+.list-of-arguments {
+  background: rgb(226, 226, 226);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.reduce-callback-values {
+  background: rgb(238, 0, 226);
+  color: white;
 }
