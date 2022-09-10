@@ -11,7 +11,7 @@ function CodeExamples() {
 
   const allExamples = [...easyExamples, ...middleExamples, ...hardExamples];
 
-  const shuffle = allExamples.sort( () => Math.random() - 0.5);
+  const shuffle = allExamples.sort(() => Math.random() - 0.5);
 
   return (
     <>

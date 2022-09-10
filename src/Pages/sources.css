@@ -1,5 +1,6 @@
 
 .LinkConteier {
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -7,7 +8,6 @@
   justify-content: left;
   width: 50%;
   background: rgb(218, 218, 218);
-  border: solid 1px
  
 }
 
@@ -17,6 +17,7 @@ ul {
 }
 
 .VideoExamples {
+  border-radius: 8px;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -25,6 +26,7 @@ ul {
 }
 
 .info-container {
+  border-radius: 8px 0 0 8px;
   display: flex;
   flex-direction: column;
   padding-right: 70px;
@@ -33,9 +35,15 @@ ul {
 }
 
 .player-container {
+  border-radius: 0 8px 8px 0;
   display: flex;
   position: relative;
   margin-left: 0;
   margin-right: 0;
+  background: rgb(192, 192, 192);
 }
 
+.upolad-text {
+  position: center;
+  
+}
