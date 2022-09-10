@@ -20,7 +20,7 @@ const App = () => {
       <Header />
     <main>
       <Routes>
-        <Route exact path ='/' element={<Start />} />
+        <Route exact={true} path ='/' element={<Start />} />
         <Route path ='/CodeExamples' element={<CodeExamples />} />
         <Route path ='/CodeExamplesEasy' element={<CodeExamplesEasy />} />
         <Route path ='/CodeExamplesMiddle' element={<CodeExamplesMiddle />} />
