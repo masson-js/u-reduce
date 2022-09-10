@@ -15,16 +15,16 @@
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-bottom: 20px;;
+  padding-bottom: 20px;
   width: 60%;
   height: auto;
   text-align: center;
   color: black;
   background-color: #eee;
-  font-size: 0.9em;
+
 }
 
-.start-container h1 {
+ h1 {
   font-size: 2rem;
   text-align: center;
   margin-top: 0px;
@@ -60,7 +60,6 @@
 
 .reduce-high-letters {
   font-size: 1.6rem;
-  
   padding: 0;
   margin: 0;
   border: none;
@@ -72,20 +71,40 @@
 }
 
 .list-of-arguments {
-  padding:0;
+  padding: 0;
   margin:0;
   border: none;
 }
 
-ul li {
-  padding-bottom: 8px;
-}
 
 .reduce-callback-values {
   background: rgb(238, 0, 226);
   color: white;
+  
 }
 
-.list-of-values {
-  
+.main-text {
+  text-align: left;
+  margin: 0;
+  padding: 0 40px 0 40px;
+  width: 100%;
+}
+
+.author {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: auto;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  color: black;
+  background-color: #eee;
+}
+
+.author p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0.7em;
 }
