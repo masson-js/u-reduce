@@ -12,7 +12,7 @@ function Sources() {
         <div className="LinkConteier">
           <div className="SourcesList" id={link.id}>
             <ul class="List">
-              <li><a target="_blank" href={link.link}>{`#${link.id}`} {link.title}</a></li>
+              <li><a href={link.link}>{`#${link.id}`} {link.title}</a></li>
             </ul>
           </div>
         </div>
