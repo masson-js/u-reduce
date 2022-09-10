@@ -16,13 +16,13 @@ const Start = () => {
           work with <span className="reduce-array">Arrays</span>.
         </p>
         <p>
-          The <span className="reduce-method">Reduce</span> method has two arguments: <span className="reduce-callback">Callback function</span> and <span className="reduce-start">start value</span>
+          The <span className="reduce-method">Reduce</span> method has two arguments: <span className="reduce-callback">Function</span> and <span className="reduce-start">start value</span>
         </p>
-        <p className="reduce-high-letters"> 
+        <h2 className="reduce-high-letters"> 
           <span className="reduce-array ">array</span><span className="reduce-dot">.</span><span className="reduce-method">reduce</span>(<span className="reduce-callback">() =&gt; &#123; &#125;</span>, <span className="reduce-start">start value</span>)
-        </p>
+        </h2>
         <div className="list-of-arguments">
-          <ul><span className="reduce-callback">Callback function</span> has the next arguments:
+          <ul><h2>Function has the next arguments:</h2>
             <li>
             <span className="reduce-callback-values">Accumulator</span> - result of previous call of <span className="reduce-callback">Callback function</span>, on the first call contains the parameters of <span className="reduce-start">start value</span>
             </li>
@@ -30,7 +30,7 @@ const Start = () => {
             <span className="reduce-callback-values">Receiver</span> - the value of the first call an <span className="reduce-array">array</span>
             </li>
             <li>
-            <span className="reduce-callback-values">Index</span> - the index position of reciver in <span className="reduce-array">array</span>
+            <span className="reduce-callback-values">Index</span> - the index position of reciver in an <span className="reduce-array">array</span>
             </li>
             <li>
             <span className="reduce-callback-values">Array</span> - the array being traversed
@@ -38,9 +38,9 @@ const Start = () => {
           </ul>
         </div>
         <div className="list-of-values">
-          <p>
-          The <span className="reduce-start">start value</span> can be the next types: <span className="reduce-start">&#123;&#125;,&#91;&#93;, null, number, boolean</span>
-          </p>
+          <h2>
+          The start value can be the next types: <span className="reduce-start">&#123;&#125;,&#91;&#93;, null, number, boolean</span>
+          </h2>
         </div>
       </div>
     </div>

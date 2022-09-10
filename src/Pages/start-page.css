@@ -1,4 +1,6 @@
 
+
+
 .background {
   display:flex;
   padding: 0;
@@ -19,13 +21,16 @@
   text-align: center;
   color: black;
   background-color: #eee;
+  font-size: 0.9em;
 }
 
 .start-container h1 {
-  font-size: 20pt;
+  font-size: 2rem;
   text-align: center;
   margin-top: 0px;
-  padding-top: 20px;
+  padding: 8px;
+  background: rgb(255, 204, 0);
+  border-radius: 8px 8px 0 0;
 }
 
 .reduce-method {
@@ -55,8 +60,10 @@
 
 .reduce-high-letters {
   font-size: 1.6rem;
-  background: rgb(226, 226, 226);
-  padding: 10px;
+  
+  padding: 0;
+  margin: 0;
+  border: none;
   width: auto;
 }
 
@@ -65,17 +72,20 @@
 }
 
 .list-of-arguments {
-  background: rgb(226, 226, 226);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding:0;
+  margin:0;
+  border: none;
 }
 
 ul li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
 .reduce-callback-values {
   background: rgb(238, 0, 226);
   color: white;
+}
+
+.list-of-values {
+  
 }
