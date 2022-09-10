@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//masson-js.github.io/u-reduce/static/css/main.db350fb1.css",
+    "main.js": "//masson-js.github.io/u-reduce/static/js/main.715cdd7b.js",
+    "index.html": "//masson-js.github.io/u-reduce/index.html",
+    "main.db350fb1.css.map": "//masson-js.github.io/u-reduce/static/css/main.db350fb1.css.map",
+    "main.715cdd7b.js.map": "//masson-js.github.io/u-reduce/static/js/main.715cdd7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db350fb1.css",
+    "static/js/main.715cdd7b.js"
+  ]
+}
